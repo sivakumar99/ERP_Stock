@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[no of rows are::5  no of column are::10]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="151555" started-at="2019-10-25T04:48:07Z" finished-at="2019-10-25T04:50:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="151555" started-at="2019-10-25T04:48:07Z" finished-at="2019-10-25T04:50:39Z">
+      <class name="DriverFactory.DataDrivenFramework">
+        <test-method status="PASS" signature="launchapp()[pri:0, instance:DriverFactory.DataDrivenFramework@1ae369b7]" name="launchapp" is-config="true" duration-ms="9199" started-at="2019-10-25T10:18:07Z" finished-at="2019-10-25T10:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="suppliercreation()[pri:0, instance:DriverFactory.DataDrivenFramework@1ae369b7]" name="suppliercreation" duration-ms="141464" started-at="2019-10-25T10:18:16Z" finished-at="2019-10-25T10:20:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no of rows are::5  no of column are::10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suppliercreation -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:DriverFactory.DataDrivenFramework@1ae369b7]" name="logout" is-config="true" duration-ms="873" started-at="2019-10-25T10:20:38Z" finished-at="2019-10-25T10:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- DriverFactory.DataDrivenFramework -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
